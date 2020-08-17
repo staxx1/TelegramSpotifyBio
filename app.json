@@ -1,0 +1,45 @@
+{
+  "name": "Spotify-Telegram-Bio-Updater",
+  "description": "spotify telegram bio updater",
+  "keywords": [
+    "spotify",
+    "music",
+    "telegram",
+    "userbot"
+  ],
+  "repository": "https://github.com/staxx1/TelegramSpotifyBio",
+  "website": "https://github.com/staxx1/",
+  "success_url": "https://github.com/staxx1/",
+  "env": {
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org"
+    },
+    "APP_HASH": {
+      "description": "Get this value from https://my.telegram.org"
+    },
+    "CLIENT_ID": {
+      "description": "spotify client ID",
+      "value": ""
+    },
+    "CLIENT_SECRET": {
+      "description": "spotify client scret key",
+      "value": ""
+    },
+    "SHUTDOWN_COMMAND": {
+      "description": "stop command",
+      "value": "\/\/stop",
+      "required": false
+    },
+    "KEY": {
+      "description": "Key :)",
+      "value": "🎶",
+      "required": false
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
